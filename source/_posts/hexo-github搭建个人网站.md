@@ -30,8 +30,8 @@ $ hexo init
 - 生成&启动服务
 hexo s 是启动本地预览服务，浏览器访问[http://localhost:4000](http://localhost:4000)就可以看到内容
 ``` bash
-$ hexo g	#生成
-$ hexo s 	#启动服务
+$ hexo g	#生成 hexo generate
+$ hexo s 	#启动服务 hexo server
 ```
 - 修改主题
 个人选择的主题：hexo-theme-yilia
@@ -51,9 +51,13 @@ $  repository: https://github.com/bruirui/bruirui.github.io.git(第一步创建�
 ``` bash
 $ npm install hexo-deployer-git --save
 ```
-然后输入 hexo d 命令,即可把代码保存到git上(注：这里存放的代码时hexo g生成后的代码)：
+然后输入 hexo d 命令,即可把代码部署到git上(注：这里存放的代码时hexo g生成后的代码)：
 ``` bash
-$ hexo d
+$ hexo d 	#hexo deploy
+```
+<font color="red">注意：当再次提交代码到git仓库时，使用以下命令:<font>
+``` bash
+$ hexo d -g 	#在部署代码前会先进行生成代码 hexo deploy -generate
 ```
 - 将代码保存到git仓库(hexo d保存的代码时hexo g生成的代码)
 在git上新建一个仓库如：hexo(记住仓库地址:https://github.com/bruirui/hexo.git)
@@ -69,6 +73,15 @@ $ git puhs -u origin master
 ``` bash
 $ git push -u origin master -f
 ```
+
+### 新写一篇文章
+- 定位到hexo目录,执行命令：
+``` bash
+$ hexo new "hexo+github搭建个人网站"
+```
+- 执行命令后结果：hexo会帮我们在_posts下生成相关md文件：
+![avatar](../resource/hexoNew.png)
+- 现在只需要打开该文件就可以编辑文章了
 
 ### 额外补充---常用hexo命令
 常见命令
