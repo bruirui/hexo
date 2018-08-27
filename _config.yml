@@ -1,14 +1,15 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
+# 主色调: #F8A131 #456782
 
 # Site
-title: 个人网站
-subtitle:
-description:
-keywords:
+title: MORE
+subtitle: Courage & Confidence
+description: 个人网站
+keywords: bruirui,github
 author: bruirui
-language:
+language: zh-CN
 timezone:
 
 # URL
@@ -28,6 +29,20 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
+menu:
+  - page: home
+    directory: .
+    icon: fa-home
+  - page: archive
+    directory: archives/
+    icon: fa-archive
+  - page: about
+    directory: about/
+    icon: fa-user
+  - page: rss
+    directory: atom.xml
+    icon: fa-rss
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -41,7 +56,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
   
 # Home page setting
@@ -73,7 +88,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: maupassant
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

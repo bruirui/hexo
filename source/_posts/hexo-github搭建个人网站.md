@@ -1,10 +1,13 @@
 ---
 title: hexo+github搭建个人网站
 date: 2018-08-22 17:35:01
-tags:
+tags: Hexo
 ---
 
-### 前期准备工作(macOS系统)
+>该文章参考: [使用hexo+github搭建免费个人博客详细教程](http://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html)
+
+---
+前期准备工作(macOS系统)
 - github账号
 - 安装好nodejs,npm,git
 
@@ -80,7 +83,7 @@ $ git push -u origin master -f
 $ hexo new "hexo+github搭建个人网站"
 ```
 - 执行命令后结果：hexo会帮我们在_posts下生成相关md文件：
-![avatar](../resource/hexoNew.png)
+![执行结果.png](../../../../resource/hexoNew.png "执行结果")
 - 现在只需要打开该文件就可以编辑文章了
 
 ### 额外补充---常用hexo命令
