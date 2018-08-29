@@ -1,7 +1,7 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
-# 主色调: #F8A131 #456782
+# 主色调: #F8A131 rgb(248, 161, 49) #456782 rgb(69, 103, 130) #9e845a rgb(158,132,90)
 
 # Site
 title: MORE
@@ -97,3 +97,9 @@ deploy:
   type: git
   repository: https://github.com/bruirui/bruirui.github.io.git
   branch: master
+
+
+flowchart:
+  # raphael:   # optional, the source url of raphael.js
+  flowchart: https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js
+  options: # options used for `drawSVG`

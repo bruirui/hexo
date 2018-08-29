@@ -6,7 +6,6 @@ tags: Hexo
 
 >该文章参考: [使用hexo+github搭建免费个人博客详细教程](http://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html)
 
----
 前期准备工作(macOS系统)
 - github账号
 - 安装好nodejs,npm,git
