@@ -1,7 +1,7 @@
 ---
 title: hexo+github搭建个人网站
 date: 2018-08-22 17:35:01
-tags: Hexo
+tags: 工具
 ---
 
 >该文章参考: [使用hexo+github搭建免费个人博客详细教程](http://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html)
