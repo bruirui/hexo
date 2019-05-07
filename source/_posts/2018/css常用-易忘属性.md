@@ -1,5 +1,6 @@
 ---
 title: css常用&易忘属性
+urlname: article1
 date: 2018-09-03 09:58:27
 tags: css
 ---
@@ -12,7 +13,7 @@ tags: css
   [<font color="#456782">-webkit-touch-callout</font>](#6)
   [<font color="#456782">outline</font>](#7)
   [<font color="#456782">文字截断</font>](#8)
-  
+
 <h3 id="1">1. border-collapse</h3>设置表格的边框是否被合并为一个单一的边框。
 - separate,默认值。边框会被分开
 - collapse,边框会合并为单一的边框。会忽略border-spacing和empty-cells属性
@@ -85,7 +86,7 @@ tags: css
 	word-break: break-all;
 ```
 
-	
+​	
 
 
 

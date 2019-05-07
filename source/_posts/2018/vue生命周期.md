@@ -1,5 +1,6 @@
 ---
 title: vue生命周期
+urlname: article5
 date: 2018-10-24 14:33:57
 tags: VUE
 ---

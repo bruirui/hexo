@@ -1,5 +1,6 @@
 ---
 title: hexo+github搭建个人网站
+urlname: article3
 date: 2018-08-22 17:35:01
 tags: 工具
 ---
@@ -108,3 +109,19 @@ $ hexo d == hexo deploy
 $ hexo s -g #生成并本地预览
 $ hexo d -g #生成并上传
 ```
+
+### 修改配置文件，自定义访问url
+
+配置完成后访问url，如：https://bruirui.github.io/201808/article3/
+
+```bash
+#修改_config.yml文件
+permalink: :year:month/:urlname/
+permalink_defaults:
+  urlname: index
+#在scaffolds/post.md文件新增：
+urlname: article
+#当新建一个md时，手动修改.md文件的urlname值，可在article后新增数值加以区分(按同月份递增)：
+urlname: article3
+```
+

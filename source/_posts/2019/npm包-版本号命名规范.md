@@ -1,5 +1,6 @@
 ---
 title: npm包-版本号命名规范
+urlname: article2
 date: 2019-05-06 14:34:47
 tags: NPM
 ---

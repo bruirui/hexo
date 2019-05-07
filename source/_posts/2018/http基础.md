@@ -1,5 +1,6 @@
 ---
 title: HTTP基础
+urlname: article8
 date: 2018-08-29 10:33:26
 tags: HTTP
 ---
@@ -9,7 +10,7 @@ tags: HTTP
   [<font color="#456782">常用HTTP状态码</font>](#ztm)
   [<font color="#456782">GET和POST区别</font>](#gp)
   [<font color="#456782">HTTP缓存</font>](#hc)
-  
+
 
 <h3 id="bb">1.HTTP协议版本及区别</h3>
 
@@ -43,7 +44,7 @@ tags: HTTP
 		② B向A发送确认信号，确认A的断开请求收到。B=》A
 		③ B向A发送信号，请求断开连接，表示B没有数据要发送了。B=》A
 		④ A向B发送确认信号，同意断开。A=》B
-
+	
 		为什么②、③次挥手不能合在一次挥手中？
 		因为此时A是不再发送数据了，但可以接收数据。B可能还会发送数据给A，所以两次挥手不能合并为一次。
 

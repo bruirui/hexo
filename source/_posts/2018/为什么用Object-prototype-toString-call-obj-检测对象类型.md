@@ -1,5 +1,6 @@
 ---
 title: 为什么用Object.prototype.toString.call(obj)检测对象类型?
+urlname: article1
 date: 2018-10-11 16:47:03
 tags: JavaScript
 ---

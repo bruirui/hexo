@@ -1,5 +1,6 @@
 ---
 title: CSS 伪类和伪元素的区别
+urlname: article2
 date: 2018-10-17 14:28:23
 tags: css
 ---

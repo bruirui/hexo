@@ -1,5 +1,6 @@
 ---
 title: HTTP缓存
+urlname: article9
 date: 2018-08-29 11:29:50
 tags: HTTP
 ---

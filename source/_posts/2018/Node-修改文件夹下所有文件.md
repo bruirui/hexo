@@ -1,5 +1,6 @@
 ---
 title: Node 修改文件夹下所有文件
+urlname: article2
 date: 2018-09-03 15:00:48
 tags: Node
 ---
