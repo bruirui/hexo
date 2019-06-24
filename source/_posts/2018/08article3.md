@@ -119,9 +119,14 @@ $ hexo d -g #生成并上传
 permalink: :year:month/:urlname/
 permalink_defaults:
   urlname: index
+#当新建md文件: hexo new "article1"，
+#生成的文件路径为：2019/05article1.md，方便从url快速找到文件md文件
+new_post_name: :year/:month:title.md
+
 #在scaffolds/post.md文件新增：
-urlname: article
-#当新建一个md时，手动修改.md文件的urlname值，可在article后新增数值加以区分(按同月份递增)：
-urlname: article3
+urlname: {{title}}
+
+#当新建一个md时，文件名会自动更改为 月份+输入文件名.md，手动修改md文件的title值
+
 ```
 
