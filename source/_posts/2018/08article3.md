@@ -130,3 +130,11 @@ urlname: {{title}}
 
 ```
 
+### 在另一台电脑上跑hexo项目
+
+```bash
+git clone 项目地址
+npm install #node-sass和node版本兼容问题，node取v8.6.0
+git clone https://github.com/tufu9441/maupassant-hexo.git themes/maupassant #安装主题，参考https://www.haomwei.com/technology/maupassant-hexo.html，主题没安装会导致hexo g生产的文件为空
+```
+
